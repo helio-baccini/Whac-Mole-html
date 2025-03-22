@@ -113,7 +113,7 @@ html, body{
 
 .gramado{
     width: 500px;
-    height: 700px;
+    height: 600px;
     background-color: #008000;
     display: flex;
     align-items: center;
@@ -240,7 +240,7 @@ html, body{
 
     .gramado img{
         max-width: 20%;
-        max-height: 20%;
+        max-height: 40%;
         padding: 10px;
     }
 
