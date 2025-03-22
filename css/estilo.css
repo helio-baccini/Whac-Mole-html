@@ -235,12 +235,11 @@ html, body{
     .tabuleiro{
         flex-direction: column-reverse;
         min-height: 100vh;
-        height: 400px
     }
 
     .gramado img{
         max-width: 20%;
-        max-height: 40%;
+        max-height: 20%;
         padding: 10px;
     }
 
@@ -254,7 +253,7 @@ html, body{
 
     .gramado, .pontos{
         max-width: 90vw;
-        height: auto;
+        height: 100vh;
     }
 
     .gramado{
