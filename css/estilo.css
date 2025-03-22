@@ -223,7 +223,10 @@ html, body{
 
     .regras .imgBox{
         height: 100%;
-    }
+        width: 100%;
+        box-sizing: content-box;
+        background-size: contain;
+    } 
 
     .tabuleiro{
         flex-direction: column-reverse;
