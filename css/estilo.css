@@ -219,12 +219,12 @@ html, body{
     }
 
     .regras .contentBox{
-        width: 100%;
+        width: 100vw;
     }
 
     .regras .imgBox{
-        height: 100%;
-        width: 100%;
+        height: 500px;
+        width: 500px;
         box-sizing: content-box;
         background-size: contain;
         background-color: #d0d0d0;
@@ -241,6 +241,7 @@ html, body{
         box-sizing: content-box;
         width: 76px;
         height: 61px;
+    }
 
     .pontos th{
         font-size: 30px;
@@ -265,4 +266,3 @@ html, body{
     }
 
 }
-
