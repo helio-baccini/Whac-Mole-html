@@ -223,9 +223,8 @@ html, body{
     }
 
     .regras .imgBox{
-        height: 500px;
-        width: 500px;
-        box-sizing: content-box;
+        height: auto;
+        max-width: 90vw;
         background-size: contain;
         background-color: #d0d0d0;
         background-position: center;
@@ -233,36 +232,35 @@ html, body{
 
     .tabuleiro{
         flex-direction: column-reverse;
-        height: 100%;
+        min-height: 100vh;
     }
 
     .gramado img{
-        padding: 25px 50px;
-        box-sizing: content-box;
-        width: 76px;
-        height: 61px;
+        max-width: 20%;
+        height: auto;
+        padding: 10px;
     }
 
     .pontos th{
         font-size: 30px;
     }
 
-    pontos td:first-child{
+    .pontos td:first-child{
         font-size: 20px;
     }
 
-    .gramado{
-        width: 400px;
-        height: 400px;
-    }
-
-    .pontos{
-        width: 400px;
-        height: 400px;
+    .gramado, .pontos{
+        max-width: 90vw;
+        height: auto;
     }
 
     .gramado{
         padding: 10px 30px;
+        justify-content: center;
     }
 
+    .autor {
+        flex-wrap: wrap;
+        padding: 5px;
+    }
 }
