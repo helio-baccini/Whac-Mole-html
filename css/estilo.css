@@ -230,6 +230,12 @@ html, body{
         height: 100%;
     }
 
+    .gramado img{
+        padding: 25px 50px;
+        box-sizing: content-box;
+        width: 76px;
+        height: 61px;
+
     .pontos th{
         font-size: 30px;
     }
