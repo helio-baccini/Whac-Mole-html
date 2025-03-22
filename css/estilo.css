@@ -215,6 +215,7 @@ html, body{
 {
     .regras{
         flex-direction: column;
+        background-color: #d0d0d0;
     }
 
     .regras .contentBox{
@@ -227,6 +228,7 @@ html, body{
         box-sizing: content-box;
         background-size: contain;
         background-color: #d0d0d0;
+        background-position: center;
     } 
 
     .tabuleiro{
