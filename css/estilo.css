@@ -226,6 +226,7 @@ html, body{
         width: 100%;
         box-sizing: content-box;
         background-size: contain;
+        background-color: #d0d0d0;
     } 
 
     .tabuleiro{
@@ -262,3 +263,4 @@ html, body{
     }
 
 }
+
