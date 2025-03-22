@@ -238,8 +238,8 @@ html, body{
     }
 
     .gramado img{
-        max-width: 20%;
-        max-height: 20%;
+        max-width: 30%;
+        max-height: 30%;
         padding: 10px;
     }
 
@@ -253,7 +253,7 @@ html, body{
 
     .gramado, .pontos{
         max-width: 90vw;
-        height: 100vh;
+        Max+height: 90vh;
     }
 
     .gramado{
