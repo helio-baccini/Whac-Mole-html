@@ -216,6 +216,7 @@ html, body{
     .regras{
         flex-direction: column;
         background-color: #d0d0d0;
+        width: 100%;
     }
 
     .regras .contentBox{
@@ -224,14 +225,16 @@ html, body{
 
     .regras .imgBox{
         height: auto;
-        max-width: 90vw;
-        background-size: contain;
+        max-width: 100vw;
+        background-size: cover;
         background-position: center;
+        background: url(../images/Mole.png);
     } 
 
     .tabuleiro{
         flex-direction: column-reverse;
         min-height: 100vh;
+        height: 400px
     }
 
     .gramado img{
