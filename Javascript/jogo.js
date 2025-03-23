@@ -9,11 +9,11 @@ var perdidos = 0;
 var errados = 0;
 
 /**tempo entre cada toupeira sair do buraco */
-var intervalo = 5000;
+var intervalo = 2500;
 
 /**tempo que a toupeira fica fora do buraco */
 
-var janela = 2000;
+var janela = 1200;
 
 /**tempo que a toupeira fica fora no buraco */
 
