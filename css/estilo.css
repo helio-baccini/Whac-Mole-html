@@ -272,23 +272,24 @@ html, body{
         padding: 10px 30px;
     }
 
-    .previous-page{
-        position: fixed;
-        top: 5px;
-        left: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .heading{
+        font-size: 20px;
+        
+    }
+    .records{
+        height: 50%;
+        margin: 20px;
     }
     
-    .records{
-        margin: 0 20px;
-        height: 100vh;
-        width: 100vw;
-    }
+       
     .records th{
-        font-size: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 14px;
+        padding: 8px;
     }
+    
+    .records td{
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    
 }
